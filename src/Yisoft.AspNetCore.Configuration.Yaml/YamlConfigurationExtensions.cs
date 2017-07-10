@@ -14,10 +14,11 @@
 // -------------------------------------------------------------------------------
 
 using System;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.FileProviders;
+using Yisoft.AspNetCore.Configuration.Yaml;
 
-namespace Yisoft.AspNetCore.Configuration.Yaml
+// ReSharper disable once CheckNamespace
+namespace Microsoft.Extensions.Configuration
 {
     public static class YamlConfigurationExtensions
     {
