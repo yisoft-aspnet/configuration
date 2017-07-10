@@ -9,8 +9,8 @@
         <Copyright>Copyright © Yi.TEAM. All rights reserved.</Copyright>
         <PackageLicenseUrl>https://github.com/yisoft-aspnet/configuration/blob/master/LICENSE</PackageLicenseUrl>
         <PackageProjectUrl>https://github.com/yisoft-aspnet/configuration</PackageProjectUrl>
-        <PackageIconUrl>https://github.com/yisoft-aspnet/configuration/blob/master/logo.png</PackageIconUrl>
-        <PackageTags>aspnetcore;dotnet;dotnet-core;configuration;yml;yisoft;yiteam</PackageTags>
+        <PackageIconUrl>https://raw.githubusercontent.com/yisoft-aspnet/configuration/master/logo.png</PackageIconUrl>
+        <PackageTags>aspnetcore;dotnet;dotnet-core;configuration;yml;yaml;yaml-configuration;yisoft;yiteam</PackageTags>
         <RepositoryType>git</RepositoryType>
         <RepositoryUrl>https://github.com/yisoft-aspnet/configuration</RepositoryUrl>
         <Description>Additional configuration providers for ASP.NET Core.</Description>
