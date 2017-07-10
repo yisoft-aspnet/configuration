@@ -1,0 +1,3 @@
+database:
+    pgsql:
+        default: 'the db conn string for TEST env'
