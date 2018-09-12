@@ -1,15 +1,15 @@
-//      )                             *     
-//   ( /(        *   )       (      (  `    
-//   )\()) (   ` )  /( (     )\     )\))(   
-//  ((_)\  )\   ( )(_)))\ ((((_)(  ((_)()\  
-// __ ((_)((_) (_(_())((_) )\ _ )\ (_()((_) 
-// \ \ / / (_) |_   _|| __|(_)_\(_)|  \/  | 
-//  \ V /  | | _ | |  | _|  / _ \  | |\/| | 
-//   |_|   |_|(_)|_|  |___|/_/ \_\ |_|  |_| 
-// 
+//      )                             *
+//   ( /(        *   )       (      (  `
+//   )\()) (   ` )  /( (     )\     )\))(
+//  ((_)\  )\   ( )(_)))\ ((((_)(  ((_)()\
+// __ ((_)((_) (_(_())((_) )\ _ )\ (_()((_)
+// \ \ / / (_) |_   _|| __|(_)_\(_)|  \/  |
+//  \ V /  | | _ | |  | _|  / _ \  | |\/| |
+//   |_|   |_|(_)|_|  |___|/_/ \_\ |_|  |_|
+//
 // This file is subject to the terms and conditions defined in
-// file 'License.txt', which is part of this source code package.
-// 
+// file 'LICENSE', which is part of this source code package.
+//
 // Copyright © Yi.TEAM. All rights reserved.
 // -------------------------------------------------------------------------------
 
@@ -19,7 +19,6 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Yisoft.AspNetCore.Configuration.Yaml;
 
 namespace SampleApp
 {
@@ -36,9 +35,9 @@ namespace SampleApp
         }
 
         public IConfigurationRoot Configuration { get; }
-        
+
         public void ConfigureServices(IServiceCollection services) { }
-        
+
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             loggerFactory.AddConsole();
